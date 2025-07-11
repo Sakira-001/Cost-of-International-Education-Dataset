@@ -1,4 +1,5 @@
-# Cost-of-International-Education-Dataset                                                                                                                                                                          This Cost of International Education dataset compiles detailed financial information for students pursuing higher education abroad. It covers multiple countries, cities, and universities around the world, capturing the full tuition and living expenses spectrum alongside key ancillary costs. This dataset is built on empathy, and I selected it because of its connection to education, as fewer people can afford international education worldwide.
+# Cost-of-International-Education-Dataset
+This Cost of International Education dataset compiles detailed financial information for students pursuing higher education abroad. It covers multiple countries, cities, and universities around the world, capturing the full tuition and living expenses spectrum alongside key ancillary costs. This dataset is built on empathy, and I selected it because of its connection to education, as fewer people can afford international education worldwide.
 
 ---
 
@@ -18,29 +19,26 @@
 ---
 
 ## Overview
-This interactive dashboard comprehensively analyses traffic collisions across New York City. It is designed to help stakeholders—such as city planners, transportation officials, safety advocates, and the general public—better understand collision patterns, identify high-risk areas, and support data-driven decisions to enhance road safety.
+This project presents an interactive Power BI dashboard built using a dataset on the cost of international education across various countries, cities, and universities. It includes key financial metrics such as tuition fees, rent, living expenses, visa fees, insurance, and exchange rates. The dashboard provides a centralized view for comparing study costs across programs and degree levels (Bachelor, Master, PhD), helping prospective students, consultants, and researchers evaluate affordability and identify cost-effective study destinations.
 
 ---
 
 ## Raw Data
-The raw data for this dashboard includes a comprehensive dataset of the NYC Road Accident dataset. It consists of the following fields:
+The raw data for this dashboard includes a comprehensive dataset of the International Education Costs dataset. It consists of the following fields:
 
-1. **Collison ID**: A unique identifier for each collision record.
-2. **Date**: The date on which the collision occurred.
-3. **Time**: The specific time the collision happened.
-4. **Borough**: The borough (e.g., Brooklyn, Queens, Bronx, etc.) where the collision occurred.
-5. **Zip Code**: The zip code of the location where the accident took place.
-6. **Latitude**: The latitude coordinate for the accident location.
-7. **Longitude**: The longitude coordinate for the accident location.
-8. **Street Name**: The primary street name where the accident occurred.
-9. **Number of Persons Injured**: Total number of individuals injured in the accident.
-10. **Number of Persons Killed**: Total number of individuals who died as a result of the accident.
-11. **Number of Pedestrians Injured**: Number of injured individuals who were pedestrians.
-12. **Number of Pedestrians Killed**: Number of pedestrians who died in the accident.
-13. **Number of Cyclist Injured**: Number of injured individuals who were riding bicycles.
-14. **Number of Cyclist Killed**: Number of cyclists who were killed.
-15. **Number of Motorist Injured**: Number of motorists injured in the accident.
-16. **Number of Motorist Killed**: Number of motorists who died in the accident.
+1. **Program**: Name of the academic program (e.g., Computer Science, Engineering).
+2. **Degree Level**: e.g., Bachelor's, Master's, PhD.
+3. **University**: Name of the institution offering the program.
+4. **Country**: The country where the university is located.
+5. **City**: Specific city of the institution.
+6. **Tuition (USD)**: Annual or program-based tuition fees in USD.
+7. **Living Cost**: Estimated monthly or annual living expenses (excluding rent).
+8. **Rent**: Average cost of student housing or accommodation.
+9. **Visa Fee**: Application or processing fee for a student visa.
+10. **Insurance**: Health/travel insurance cost for international students.
+11. **Exchange Rate**: Conversion rate to USD from local currency.
+12. **Total Cost**: Calculated field: sum of Tuition, Living Cost, Rent, Visa Fee, and Insurance.
+13. **Living Cost Index**: Numerical index indicating the cost of living in the city.
 
 ---
 
