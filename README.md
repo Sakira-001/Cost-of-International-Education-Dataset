@@ -43,10 +43,12 @@ The raw data for this dashboard includes a comprehensive dataset of the Internat
 ---
 
 ### Data Cleaning Process in Power Query
-- **Removed Duplicates**: Identified and removed duplicate rows based on Collision ID to ensure each collision record is unique.
-- **Time Data Type**: Changed the time data type from Time & Date to Time only.
-- **Null**: Chabged the Null values in the Borough, Steet Name and Contributing factor column to "Unknown or "Unspecified".
-- **Find and Replace**: Used the Find and Replace to reduce the contents "Vehicle" and "Contributing Factors" columns.
+- **Removed Duplicates**
+- **Removed Unnecessary Characters**
+- **Changed Data Types**
+- **Renamed Columns for Clarity**
+- **Handled Null Values**
+- **Created a New Column for Total Cost**
 
 ---
 
