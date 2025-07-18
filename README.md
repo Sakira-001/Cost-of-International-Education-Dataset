@@ -53,15 +53,14 @@ The raw data for this dashboard includes a comprehensive dataset of the Internat
 ---
 
 ## Dashboard Features
-- **Interactive Filters**: Users can slice and explore the data by borough, vehicle type, contributing factors, month, and injury/fatality type for flexible, in-depth analysis.
-- **Visualizations**: The dashboard incorporates bar charts, pie charts, stacked columns, and heat maps to clearly display accident trends, contributing causes, and spatial distribution.
-- **Custom Groupings**: Vehicle types and contributing factors were grouped into meaningful categories (e.g., Passenger, Commercial, Unknown) to simplify interpretation.
-- **Time-Based Analysis**: Monthly and hourly trend graphs allow users to detect seasonal patterns and peak collision times.
-- **Highlight Cards (KPIs)**: Summary cards show total collisions, injuries, and fatalities, providing an instant snapshot of the overall impact.
-- **User-Centric Design**: Custom color schemes, consistent font styles, and intuitive slicer layouts were applied to ensure clarity, readability, and visual appeal.
-- **Responsive Insights**: All charts dynamically update based on selected filters, helping users draw targeted conclusions based on specific scenarios.
-
-![NYC_ROAD_ACCIDENT_DASHBOARD]("")
+- **Interactive Filters**: Users can filter data by country, city, university, degree level, and academic program to explore education costs from different perspectives.
+- **Visualizations**: Users can filter data by country, city, university, degree level, and academic program to explore education costs from different perspectives.
+- **Cost Breakdown**: Key financial elements such as tuition, rent, visa fees, insurance, and living expenses are individually displayed and aggregated for complete transparency.
+- **Top-N Highlights**: Charts identify the top countries and universities with the highest education expenses, helping users recognise high-cost destinations quickly.
+- **Highlight Cards (KPIs)**: Summary cards display key metrics like average tuition, total cost, and number of universities or countries covered, offering quick insights at a glance.
+- **Program-Specific Insights**: Side-by-side comparisons reveal which programs (e.g., Computer Science, Business) have the highest total costs across locations.
+- **User-Friendly Design**: Consistent colour themes, clear titles, and structured layouts improve readability and guide users through the data story effectively.
+- **Dynamic Interactivity**: All visuals respond in real time to slicer selections, enabling users to conduct focused analysis based on specific study destinations, program types, or cost components.
 
 ---
 
