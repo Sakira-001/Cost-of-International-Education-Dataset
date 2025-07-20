@@ -65,30 +65,35 @@ The raw data for this dashboard includes a comprehensive dataset of the Internat
 ---
 
 ## Key Metrics
-1. **Total Reported Collisions**: 91,286
-2. **Total Injuries**: 45,317
-   - Persons Injured: 37,198
-   - Pedestrians Injured: 4,211
-   - Cyclists Injured: 1,932
-   - Motorists Injured: 1,976
-3. **Total Fatalities**: 276
-   - Persons Killed: 213
-   - Pedestrians Killed: 39
-   - Cyclists Killed: 12
-   - Motorists Killed: 12
-4. **Borough with Most Collisions**: Brooklyn
-5. **Most Common Contributing Factor**: Driver Inattention/Distraction
-6. **Peak Collision Hours**: Between 3 PM – 6 PM
-7. **Collisions by Vehicle Type**:
-   - Passenger Vehicles: 58%
-   - Commercial Vehicles: 18%
-   - Two-Wheelers (Motorcycles, Bicycles): 9%
-   - Emergency Services: 3%
-   - Others: 6%
-   - Unknown/Not Reported: 6%
-8. **Seasonal Pattern**: Highest collisions recorded in October, lowest in February
-9. **Most Affected Demographic**: Motorists and pedestrians injured in Brooklyn and Queens
-10. **Location Hotspots**: Most incidents occurred in densely populated areas with high traffic volume
+1. **Total Countries Covered**: 22
+2. **Total Universities Analyzed**: 84
+3. **Total Programs Assessed**: 62
+4. **Average Tuition Fee**: $25,432
+5. **Average Total Education Cost (Tuition + Rent + Living Cost + Visa + Insurance)**: $42,750
+6. **Most Expensive Country**: United States
+7. **Least Expensive Country**:Poland
+8. **Top 3 Universities by Tuition Fee**:
+   - Stanford University: $57,000
+   - Stanford University: $57,000
+   - University of Melbourne: $52,300
+9. **Most Expensive Program**: Computer Science
+10. **Degree Level with Highest Total Cost**: PhD Programs
+11. **City with Highest Average Living Cost**: San Francisco
+12. **Exchange Rate Range (Local to USD)**: 0.11 – 1.36
+13. **Program Types with Highest Cost Variation**:
+   - Engineering
+   - Business
+   - Computer Science
+14. **Cost Distribution by Degree Level**:
+   - Bachelor's: 41%
+   - Master's: 36%
+   - PhD: 23%
+15. **Top 5 Countries by Total Cost**:
+   - United States
+   - Australia
+   - United Kingdom
+   - Canada
+   - Switzerland
 
 ---
 
