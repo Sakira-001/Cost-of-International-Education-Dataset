@@ -98,54 +98,44 @@ The raw data for this dashboard includes a comprehensive dataset of the Internat
 ---
 
 ## Insights & Conclusions
-1. **Leading Causes of Collisions**:
-   - The top contributing factor to collisions is "Unspecified", meaning a lack of detailed reporting.
-   - Driver inattention/distraction is the most reported cause, emphasizing the need for awareness campaigns on focused driving.
-2. **Fatalities Across Boroughs**:
-   - Brooklyn has the highest fatalities among pedestrians, motorists, and cyclists.
-   - Motorists experience the most fatalities overall, suggesting that driver safety improvements are needed.
-3. **Vehicle Types in Collisions**:
-   - Passenger vehicles account for the highest number of collisions, far exceeding any other vehicle type across all boroughs.
-   - Bicycles, taxis, motorcycles, and buses contribute to accidents but at significantly lower numbers compared to passenger vehicles.
-   - Brooklyn leads in overall collisions, followed by Queens and the Bronx, possibly due to higher traffic density and population.
+1. **The United States Has the Highest Total Education Cost**: Students looking to study in the U.S. face significantly higher combined costs (tuition, rent, living, visa, and insurance) compared to other countries, making it the most expensive destination overall.
+2. **Tuition and Rent Are the Biggest Cost Drivers**: Across most countries, tuition and rent contribute the largest share to the total cost of studying abroad, with tuition alone sometimes accounting for over 50% of the total expenses.
+3. **Poland and Turkey Offer the Most Affordable Education Options**: These countries have the lowest overall costs, making them attractive destinations for budget-conscious international students, especially for undergraduate programs.
+4. **Master’s Programs Are More Prevalent but Also More Costly**: While Master’s programs make up a large portion of the dataset, they also tend to have higher tuition and associated living costs than Bachelor's programs in many countries.
 
 ---
 
 ## Tools & Techniques Used
 1. **Power BI**:
-   - Power Query Editor for extensive data cleaning and transformation.
-   - DAX (Data Analysis Expressions) to calculate key metrics like total collisions, injuries, fatalities, and percentage breakdowns.
-   - Slicers for dynamic filtering by borough, vehicle type, month, and contributing factors.
-   - Custom Visuals including bar charts, pie charts, stacked columns, KPIs, and heatmaps for clear insight presentation.
-2. **Figma**: Designed visual mockups and layout guides to ensure a clean, user-friendly dashboard interface.
+   - Utilised Power Query Editor for data cleaning, formatting, and transformation.
+   - Applied DAX (Data Analysis Expressions) to calculate Total Cost (Tuition + Visa + Insurance + Rent + Cost of Living) and other key metrics.
+   - Integrated slicers and filters to allow dynamic comparisons by country, program, and institution.
+   - Custom Visuals, including charts, to provide a clear insight presentation.
+2. **PowerPoint**: Designed the dashboard background to enhance visual aesthetics and layout structure.
 
 ---
 
 ## Questions & Answers
-### Q1: Compare the % of total accidents by month. Do you notice any seasonal patterns? 
-**Ans**: Yes, a clear seasonal pattern emerges. The highest percentage of accidents occurred in October, followed by June and August. The months with the lowest accident rates were February and January.
+### Q1: Which countries have the highest and lowest total education costs?
+**Ans**: - Highest: The United States, United Kingdom, and Australia consistently show the highest total education costs, with expenses exceeding $45,000 in some cases.
+         - Lowest: Countries like Poland, Germany, and Turkey offer the most affordable options, often staying under $20,000 for total annual costs.
 
-### Q2: Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
-**Ans**: - Accidents peak sharply around midnight (12:00 AM) — likely due to the timestamp default or batch reporting practices — followed by a steady increase from 6:00 AM, with consistent spikes between 8:00 AM to 6:00 PM, especially around 3:00 PM to 6:00 PM, coinciding with afternoon rush hours.
-         - By Day of Week: Fridays have the highest accident frequency, followed closely by Thursdays and Wednesdays.
-Weekends (especially Sundays) see fewer incidents, likely due to reduced commuting traffic.
+### Q2: What are the major contributors to the total cost of studying abroad?
+**Ans**: The largest contributors across most countries are: Tuition Fees, Rent/Housing, Cost of Living.
 
-### Q3:  On which particular street were the most accidents reported? What does that represent as a % of all reported accidents? 
-**Ans**: The street with the most reported accidents was Brooklyn.
+### Q3:  Which programs are associated with higher study costs?
+**Ans**: STEM and MBA programs tend to have higher tuition and overall costs, especially in countries like the U.S., Canada, and the UK.
 
-### Q4: What was the most common contributing factor for the accidents reported in this sample (based on 
-Vehicle 1)? What about fatal accidents specifically?  
-**Ans**: - The most common contributing factor across all accidents (based on Vehicle 1) was Unspecified.
-         - For fatal accidents specifically, the leading contributing factor remained Unspecified.
+### Q4: Are there noticeable cost variations between public and private institutions?  
+**Ans**: Yes, private institutions in high-cost countries like the U.S. and UK are significantly more expensive than public ones. 
 
 ---
 
 ## Recommendation
-1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and conducting public awareness campaigns on focused driving and accident prevention.
-2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and enforce speed limits, right-of-way laws, and lane discipline more strictly.
-3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and install more traffic calming measures (e.g., speed bumps, pedestrian islands).
-4. Targeted Safety Measures in High-Collision Boroughs: Brooklyn & Queens: Implement city-wide road safety programs due to high fatalities.
+1. Prospective international students should consider countries like Poland, Turkey, or Germany, where total education costs are significantly lower, without compromising on educational quality.
+2. Budgeting tools or cost breakdown checklists can help manage finances more effectively for students who are planning to travel abroad.
+3. For countries like the U.S., UK, and Australia, institutions and advisors should actively share information on available scholarships, financial aid, or work-study options to help offset high total costs.
 ---
 
 ## Conclusion
-This project successfully analyzed NYC traffic accident data to identify key patterns and risk factors. The insights gathered can help inform safety initiatives, improve traffic management, and reduce accident occurrences through data-driven decisions.
+This project highlights the wide disparities in international education costs and offers a centralised, interactive tool to help students make informed, data-driven decisions. By comparing tuition, living expenses, and other related costs across countries and programs, users can better assess affordability and plan their study-abroad journey effectively.
